@@ -10,9 +10,6 @@ searchBar.addEventListener("input", (eventData) => {
     const elementContainsHideClass =
       grid.children[i].classList.contains("hide");
 
-    // console.log(grid.children[i].children.item(2).textContent);
-    // console.log(String(eventData.target.value).toLowerCase());
-
     if (!itemIncludesSearchValue && !elementContainsHideClass) {
       grid.children[i].classList.add("hide");
     } else if (itemIncludesSearchValue && elementContainsHideClass) {
