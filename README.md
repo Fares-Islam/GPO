@@ -19,4 +19,4 @@ This project is about a website made for affiliate marketing, I tinkered with it
 - Performance Optimization
 
 ## Running Locally
-Open the .index file on a browser
+Open the .index file on a browser after downloading this folder
