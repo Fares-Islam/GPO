@@ -1,4 +1,4 @@
-# GreatProductOffers
+# GreatProductOffers (GPO)
 
 This project is about a website made for affiliate marketing, I tinkered with it for 3 months to hone my skills in some basic web development skills such as website design
 
