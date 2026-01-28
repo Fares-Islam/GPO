@@ -60,40 +60,6 @@ navbar button {
     padding: 0px;
 }
 
-#showHideSubscribe {
-    display: none;
-    position: fixed;
-    width: max-content;
-    transform: translate(-80%, 100%);
-    transition: transform 500ms ease-in-out;
-}
-
-#showHideSubscribe button {
-    position: fixed;
-}
-
-#showHideSubscribe textbg {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    font-size: 15px;
-}
-
-#showHideSubscribe input {
-    color: #7c838f;
-    background-color: #eef3fc;
-    padding: 4px;
-    border-color: #dce2ec;
-    border-style: double;
-}
-
-#showHideSubscribe input::placeholder {
-    color: rgb(173, 181, 201);
-}
-
-#showHideSubscribe input {
-    color: rgb(173, 181, 201);
-}
-
 logo {
     flex: 1 1 auto;
     margin-left: 10%;
@@ -293,13 +259,15 @@ ProductPage button {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    color: #a8b3f1;
-    background-color: #bed9fcd8;
+    color: #495c9441;
+    background-color: #b6b4ddab;
     width: 200px;
     height: 60px;
     font-size: 40px;
     cursor: pointer;
     margin-bottom: 25px;
+    border: none;
+    border-radius: 12px;
 }
 
 ProductPage h1 {
@@ -402,17 +370,13 @@ p a:hover {
     navbar .textbg {
         padding: 5px;
     }
-
-    #showHideSubscribe {
-        transform: translate(-70%, 80%);
-    }
 }
 
 @media screen and (max-width: 620px) {
     p {
 
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 8%;
+        padding-right: 8%;
         font-size: 14px;
 
     }
@@ -428,7 +392,16 @@ p a:hover {
     navbar {
         height: 0px;
         position: absolute;
+    }
 
+    navbar textbg {
+        font-size: 12px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .nav {
+        margin-right: 2%;
     }
 
     #navbarMobileMenu {
